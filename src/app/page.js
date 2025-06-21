@@ -198,7 +198,7 @@ const HandleChange = (e) => {
       if (result.success) {
         alert('Profile submitted successfully');
       } else {
-        alert('Submission failed');
+        console.error('Submission failed');
       }
     } catch (err) {
       console.error('Error submitting profile:', err);
